@@ -1,0 +1,255 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Art Exhibit</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+        <div class="banner" >
+            <nav>
+                <a href="index.html"><img src="./logo.png" class="logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Anime</a></li>
+                        <li><a href="#">Scenery</a></li>
+                        <li><a href="#">Other</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="content">
+                <h1>Arsalan's Art Exhibit</h1>
+                <p>
+                    To view Arsalan's works of art, check out the navigation bar to see some highlights,<br> 
+                    or click below to view the whole gallery!
+                </p>
+
+                <div>
+                    <button type="button" class="blue" onClick="document.getElementById('gallery').scrollIntoView();">SEE GALLERIES</button>
+                    <button type="button" class="blue" onClick="document.getElementById('about').scrollIntoView();">ABOUT THE ARTIST</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<!---------Call To Action-------->
+
+<section class="cta">
+    <h1>Order A Commission<br>From Anywhere In The World</h1>
+    <button type="button" onClick="document.getElementById('contact').scrollIntoView();" class="hero-btn">CONTACT INFO</button>
+</section>
+
+<!------Galleries------->
+
+<section id="gallery">
+    <h1>Galleries</h1>
+    <h2>
+        Pick which gallery you would like to view.
+    </h2>
+    <div class="row">
+        <div class="gallery-col">
+            <img src="./Nezuko1.png">
+            <div class="layer">
+                <h3>Anime</h3>
+            </div>
+        </div>
+        <div class="gallery-col">
+            <img src="./background.jpg">
+            <div class="layer">
+                <h3>Scenery</h3>
+            </div>
+        </div>
+        <div class="gallery-col">
+            <img src="./Armor.png">
+            <div class="layer">
+                <h3>Other</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!------About The Author------->
+
+<section id="about">
+    <h1>About The Artist</h1>
+    <h2>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+    </h2>
+    
+    <div class="row">
+        <div class="about-col">
+            <h3>Background</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+            </p>
+        </div>
+        <div class="about-col">
+            <h3>Portfolio</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+            </p>
+        </div>
+        <div class="about-col">
+            <h3>Projects</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+            </p>
+        </div>
+    </div>
+</section>
+
+<!------Featured----->
+
+<section class="featured">
+    <h1>Featured</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+    </p>
+
+    <div class="row">
+        <div class="feat-col">
+            <img src="hbg.png">
+            <h3>Haikyu</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+            </p>
+        </div>
+        <div class="feat-col">
+            <img src="bg.png">
+            <h3>Forestry</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+            </p>
+        </div>
+        <div class="feat-col">
+            <img src="assassins creed.png">
+            <h3>Assassin's creed</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!----Testimonials---->
+
+<section class="test">
+    <h1>Testimonials</h1>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+         Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+    </p>
+
+    <div class="row">
+        <div class="test-col">
+            <img src="./gantai.png">
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+                </p>
+                <h3>Arkon Abed</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="test-col">
+            <img src="./Naruto.png">
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                     Ducimus, iusto esse veritatis necessitatibus recusandae vel?
+                </p>
+                <h3>Uzumaki Naruto</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+        
+    </div>
+
+</section>
+
+<!---------Footer-------->
+
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+<!------Contact------->
+
+<section id="contact">
+
+    <div class="comment-box">
+        <h3>Send Me An Email!</h3>
+        <form action="form-handler.php" method="post" class="comment-form">
+            <input type="text" name="name" placeholder="Send An Email">
+            <input type="email" placeholder="Enter your email address" name="email">
+            <input type="text" name="subject" placeholder="Enter subject">
+            <textarea rows="5" placeholder="Enter message" name="message"></textarea>
+            <button type="submit" class="hero-btn">Send Email</button>
+        </form>
+    </div>
+
+    <div id="bottom">
+        <div class="con-col">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            (416)-688-1453
+        </div>
+        <div class="con-col">
+            <i class="fa fa-instagram" type="button" onClick="https://www.instagram.com/ar.t_k/"></i>
+            <a href="https://www.instagram.com/ar.t_k/">@ar.t_k</a>
+        </div>
+        <div class="con-col">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a>arsalantkhan17@gmail.com</a>
+        </div>
+    </div>
+</section>
+
+
+    <!------Javascript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.width = "200px";
+        }
+
+        function hideMenu() {
+            navLinks.style.width = "0";
+        }
+        
+    </script>
+
+    </body>
+</html>
